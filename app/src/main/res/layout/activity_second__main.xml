@@ -1,0 +1,70 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="#33aa88" android:id="@+id/srl1"
+    tools:context="com.zeus.ak95.hd.Second_Main"
+    android:orientation="vertical">
+    <LinearLayout
+        android:id="@+id/sll1"
+        android:layout_marginTop="15dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+        <TextView
+            android:text="Happy Dussehra"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:textColor="#008866"
+            android:gravity="center"
+            android:textStyle="bold"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/sll2"
+        android:layout_width="fill_parent"
+        android:layout_height="400dp"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical"
+        android:layout_weight="9">
+        <ImageSwitcher
+            android:id="@+id/simgs1"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            />
+
+        <Gallery
+            android:id="@+id/sgl1"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginTop="5dp"
+            android:layout_weight="3"
+            android:background="#00dddddd"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/sll3"
+        android:layout_marginTop="15dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2">
+        <Button
+            android:id="@+id/sbtn1"
+            android:text="FeedBack Here"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:textColor="#117766"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:background="#00ffffff"
+            />
+    </LinearLayout>
+
+
+</LinearLayout>

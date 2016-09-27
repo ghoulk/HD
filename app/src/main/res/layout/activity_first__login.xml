@@ -1,0 +1,75 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin" android:background="@drawable/splash"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".First_Login"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/fll1"
+        android:layout_marginTop="15dp"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="10">
+        <TextView
+            android:id="@+id/fl1" android:textStyle="bold"
+            android:text="Login" android:layout_width="fill_parent"
+            android:layout_height="fill_parent" android:textSize="45dp"
+            android:textColor="#337755" android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp" android:gravity="center|top"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/fll2"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="7"
+        android:orientation="vertical">
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_below="@+id/fl1"
+            android:id="@+id/ft1"
+            android:hint="Username"
+            android:textColorHint="#444444"
+            android:textColor="#ffffff"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:inputType="textPersonName"
+            android:layout_weight="1"
+            />
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/ft2"
+            android:layout_marginTop="30dp"
+            android:hint="Password"
+            android:textColor="#ffffff"
+            android:textColorHint="#444444"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:inputType="textPassword"
+            android:layout_weight="1"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/fll3"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="9"
+        android:gravity="center">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/fb1"
+            android:background="#007755"
+            android:text="Enter"
+            android:textColor="#ffffff"
+            android:textSize="20dp"
+            android:padding="15dp"/>
+    </LinearLayout>
+
+</LinearLayout>
